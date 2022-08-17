@@ -6,9 +6,37 @@
 /* цвет кнопок 2196F3 */
 /* цвет кнопок портфолио неакт F5F4FA */
 
+:root {
+    --primary-bkgcolor: #F5F5F5;
+    --secondary-bkgcolor: #2F303A;
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --button-color-active: #2196F3;
+    --button-color: #F5F4FA;
+    --link-active: #2196F3;
+}
+
 body {
-    background-color: #F5F5F5;
-    color: #212121;
+    background-color: var(--primary-bkgcolor);
+    color: var(--primary-color);
+    font-family: roboto, sans-serif;
+}
+
+.hero .footer {
+    background-color: var(--secondary-bkgcolor);
+}
+
+.logo {
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+}
+
+.list-nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: #212121;
 }
 
 li {
@@ -16,7 +44,13 @@ li {
 }
 
 .logo {
-    color: #2196F3;
+    color: var(--link-active);
+    font-family: raleway, sans-serif;
+}
+
+.accent {
+    color: #FFFFFF
+    ;
 }
 
 .site-logo {
@@ -24,9 +58,21 @@ li {
 }
 
 .link:hover {
-    color: #2196F3;
+    color: var(--link-active);
 }
 
 .link:focus {
-    color: #2196F3;
+    color: var(--link-active);
 }
+
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+
