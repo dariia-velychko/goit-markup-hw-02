@@ -33,7 +33,7 @@
 
 .page {
 background-color: var(--body-bgk);
-color: #212121;
+color: var(--primary-color);
 font-family: var(--main-font);
 font-size: 14px;
 line-height: 1.71;
@@ -57,7 +57,6 @@ color: #000000;
 }
 
 .list-nav {
-color: var(--primary-color);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -103,7 +102,57 @@ text-transform: uppercase;
 .desc {
 font-weight: 400;
 line-height: 24px;
-color: #757575;
+color: var(--secondary-color);
+}
+
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.team-position {
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+line-height: 1.19;
+color: var(--secondary-color);
+}
+
+.accent {
+    color: var(--hero-color);
+}
+
+.footer {
+    background-color: var(--secondary-bkgcolor);
+}
+
+.address-list {
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.project-name {
+color: var(--primary-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.work-type {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+color: var(--secondary-color);
 }
     
     
