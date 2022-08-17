@@ -7,72 +7,104 @@
 /* цвет кнопок портфолио неакт F5F4FA */
 
 :root {
-    --primary-bkgcolor: #F5F5F5;
-    --secondary-bkgcolor: #2F303A;
+    /* Fonts */
+
+    --main-font: roboto, sans-serif;
+    --logo-font: raleway, sans-serif;
+
+    /* Text colors */
+
     --primary-color: #212121;
     --secondary-color: #757575;
+    --hero-color: #FFFFFF;
+
+    /* Background colors */
+
+    --primary-bkgcolor: #F5F5F5;
+    --secondary-bkgcolor: #2F303A;
+    --body-bgk: #F5F5F5
+
+    /* Others */
+
     --button-color-active: #2196F3;
     --button-color: #F5F4FA;
     --link-active: #2196F3;
 }
 
-body {
-    background-color: var(--primary-bkgcolor);
-    color: var(--primary-color);
-    font-family: roboto, sans-serif;
+.page {
+background-color: var(--body-bgk);
+color: #212121;
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 
-.hero .footer {
-    background-color: var(--secondary-bkgcolor);
+.list-item {
+list-style:none
 }
 
 .logo {
+color: var(--link-active);
+font-family: var(--logo-font);
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
-}
-
-.list-nav {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: #212121;
-}
-
-li {
-    list-style: none;
-}
-
-.logo {
-    color: var(--link-active);
-    font-family: raleway, sans-serif;
-}
-
-.accent {
-    color: #FFFFFF
-    ;
+line-height: 1.19;
 }
 
 .site-logo {
-    color: #000000;
+color: #000000;
 }
 
-.link:hover {
-    color: var(--link-active);
+.list-nav {
+color: var(--primary-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
-.link:focus {
-    color: var(--link-active);
+.link {
+text-decoration: none;
 }
 
-
-a {
-    color: var(--primary-color);
-    text-decoration: none;
+.active {
+color: var(--link-active);
+}
+    
+.hero {
+background-color: var(--secondary-bkgcolor);
+color: var(--hero-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
-button {
-    font-family: inherit;
+.btn {
+background-color: #2196F3;
+color: var(--hero-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
+.subtitle {
+font-weight: 700;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.desc {
+font-weight: 400;
+line-height: 24px;
+color: #757575;
+}
+    
+    
 
