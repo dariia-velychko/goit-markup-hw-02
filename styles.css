@@ -33,20 +33,27 @@
 }
 
 .page {
-background-color: var(--body-bgk);
 color: var(--primary-color);
+background-color: var(--body-bgk);
 font-family: var(--main-font);
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-.list,
-.list-item {
+.link:hover,
+.link:focus {
+color: var(--link-active);
+}
+
+.list, .list-item,
+.link-item, .work-list {
 list-style:none
 }
 
-
+.header-group {
+color: var(--secondary-color);
+}
 
 .team-list {
 background-color: var(--hero-color);
@@ -71,9 +78,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.link {
+.link, .work-link {
 text-decoration: none;
-
 }
 
 .link-nav {
@@ -81,14 +87,12 @@ text-decoration: none;
 color: var(--primary-color);
 }
 
-tel {
+.link-contact {
 color: var(--secondary-color);
+text-decoration: none;
 }
 
-.active {
-color: var(--link-active);
-}
-    
+
 .hero {
 background-color: var(--secondary-bkgcolor);
 color: var(--hero-color);
@@ -127,6 +131,10 @@ width: 73px;
 height: 38px;
 left: 512px;
 top: 174px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
 }
 
 .features {
@@ -143,11 +151,9 @@ text-transform: uppercase;
 background-color: var(--primary-bkgcolor);
 }
 
-.desc {
+.features p {
 color: var(--secondary-color);
-font-weight: 400;
 line-height: 1.71;
-
 }
 
 .section-title {
@@ -192,13 +198,13 @@ font-style: normal;
 .btn {
 background-color: #F5F4FA;
 cursor: pointer;
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.62;
+line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 }
-
 
 .project-name {
 color: var(--primary-color);
@@ -215,5 +221,10 @@ line-height: 1.88;
 color: var(--secondary-color);
 }
     
-    
+
+.active {
+color: var(--link-active);
+}
+
+   
 
