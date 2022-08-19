@@ -46,6 +46,10 @@ letter-spacing: 0.03em;
 color: var(--link-active);
 }
 
+.work-link:hover {
+color: var(--link-active);
+}
+
 .list, .list-item,
 .link-item, .work-list {
 list-style:none
@@ -108,19 +112,19 @@ text-transform: uppercase;
 border: none;
 cursor: pointer;
 font-family: inherit;
-background-color: #2196F3;
-width: 216px;
-height: 50px;
-left: 692px;
-top: 430px;
+background-color: var(--link-active);
 color: var(--hero-color);
 font-weight: 700;
 font-size: 16px;
-line-height: 1.88px;
+line-height: 1.88;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.03em;
+}
+
+.button-type-index:active{
+background-color: #188CE8;
 }
 
 .btn-filter {
@@ -136,8 +140,8 @@ text-align: center;
 
 .btn-filter:hover,
 .btn-filter:focus {
-    background-color: var(--link-active);
-    color: #FFFFFF;
+background-color: var(--link-active);
+color: #FFFFFF;
 }
 
 .features {
