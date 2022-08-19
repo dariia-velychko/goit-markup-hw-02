@@ -105,6 +105,7 @@ text-transform: uppercase;
 }
 
 .btn-active {
+border: none;
 cursor: pointer;
 font-family: inherit;
 background-color: #2196F3;
@@ -123,18 +124,20 @@ letter-spacing: 0.03em;
 }
 
 .btn-filter {
-background-color: #2196F3;
-color: var(--hero-color);
-cursor: pointer;
+border: none;
+background-color:var(--button-color);
+color: var(--primary-color);
 font-family: inherit;
-width: 73px;
-height: 38px;
-left: 512px;
-top: 174px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 text-align: center;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    background-color: var(--link-active);
+    color: #FFFFFF;
 }
 
 .features {
@@ -195,17 +198,6 @@ color: #FFFFFF;
 font-style: normal;
 }
 
-.btn {
-background-color: #F5F4FA;
-cursor: pointer;
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
-}
-
 .project-name {
 color: var(--primary-color);
 font-weight: 700;
@@ -221,10 +213,7 @@ line-height: 1.88;
 color: var(--secondary-color);
 }
     
-
 .active {
 color: var(--link-active);
 }
-
-   
 
