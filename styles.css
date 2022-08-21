@@ -22,14 +22,17 @@
 
     --primary-bkgcolor: #F5F5F5;
     --secondary-bkgcolor: #2F303A;
-    --body-bgk: #F5F5F5
+    --body-bgk: #F5F5F5;
 
     /* Others */
 
-    --button-color-active: #2196F3;
+    --button-color-hero: #2196F3;
     --button-color: #F5F4FA;
     --link-active: #2196F3;
     --light-bgk: #F5F4FA;
+    --button-color-active: #188CE8;
+    --logo-header: #000000;
+    --contacts-footer: rgba(255, 255, 255, 0.6);
 }
 
 .page {
@@ -37,7 +40,6 @@ color: var(--primary-color);
 background-color: var(--body-bgk);
 font-family: var(--main-font);
 font-size: 14px;
-line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
@@ -72,12 +74,11 @@ line-height: 1.19;
 }
 
 .site-logo {
-color: #000000;
+color: var(--logo-header);
 }
 
 .list-nav {
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
@@ -99,13 +100,16 @@ text-decoration: none;
 
 .hero {
 background-color: var(--secondary-bkgcolor);
-color: var(--hero-color);
+}
+
+.main-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
+text-align: center;
 text-transform: uppercase;
+color: var(--hero-color);
 }
 
 .btn-active {
@@ -124,7 +128,7 @@ letter-spacing: 0.03em;
 }
 
 .button-type-index:active{
-background-color: #188CE8;
+background-color: var(--link-active);
 }
 
 .btn-filter {
@@ -141,7 +145,7 @@ text-align: center;
 .btn-filter:hover,
 .btn-filter:focus {
 background-color: var(--link-active);
-color: #FFFFFF;
+color: var(--hero-color);
 }
 
 .features {
@@ -198,8 +202,13 @@ background-color: var(--secondary-bkgcolor);
 }
 
 .address-list, .contacts {
-color: #FFFFFF;
+color: var(--hero-color);
 font-style: normal;
+}
+
+.contacts-list a {
+color: var(--contacts-footer)
+font-weight: 500;
 }
 
 .project-name {
