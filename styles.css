@@ -48,7 +48,7 @@ letter-spacing: 0.03em;
 .header-group {
 color: var(--secondary-color);
 font-weight: 500;
-line-height: 1, 14;
+line-height: 1,14;
 letter-spacing: 0.02em;
 }
 
@@ -217,6 +217,10 @@ line-height: 1, 71;
 
 .accent {
 color: var(--hero-color);
+}
+
+.contacts-list a {
+color:var(--contacts-footer)
 }
 
 /* Portfolio Buttons */
