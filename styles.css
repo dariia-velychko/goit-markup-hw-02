@@ -96,10 +96,6 @@ color: var(--secondary-color);
 text-decoration: none;
 }
 
-/* .works .link:active {
-color: var(--link-active);
-} */
-
 .active {
 color: var(--link-active);
 }
@@ -165,7 +161,7 @@ line-height: 1.71;
 background-color: var(--primary-bkgcolor);
 }
 
-.services-title {
+.section-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -196,7 +192,6 @@ text-align: center;
 line-height: 1.19;
 color: var(--secondary-color);
 }
-
 
 /* Footer */
 
@@ -239,7 +234,6 @@ background-color: var(--link-active);
 color: var(--hero-color);
 }
 
-
 /* Portfolio Projects */
 
 .project-name {
@@ -260,7 +254,4 @@ color: var(--secondary-color);
 /* .works link:hover {
 color: var(--link-active);
 } */
-    
-
-
 
