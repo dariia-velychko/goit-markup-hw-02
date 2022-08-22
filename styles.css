@@ -48,7 +48,7 @@ letter-spacing: 0.03em;
 .header-group {
 color: var(--secondary-color);
 font-weight: 500;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
@@ -96,20 +96,20 @@ color: var(--secondary-color);
 text-decoration: none;
 }
 
-.works .link:active {
+/* .works .link:active {
 color: var(--link-active);
-}
+} */
 
 .active {
 color: var(--link-active);
 }
 
 /* Кнопки */
-.btn-active {
+.btn-hero {
 border: none;
 cursor: pointer;
 font-family: inherit;
- background-color: var(--link-active);
+background-color: var(--button-color-hero);
 color: var(--hero-color);
 font-weight: 700;
 font-size: 16px;
@@ -120,10 +120,9 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 
-.button-type:active {
+.btn-hero-active:active {
 background-color: var(--button-color-active);
 }
-
 
 /* Hero */
 
@@ -144,7 +143,7 @@ color: var(--hero-color);
 .subtitle {
 font-weight: 700;
 font-size: 14px;
-line-height: 1, 14;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -160,7 +159,6 @@ color: var(--secondary-color);
 line-height: 1.71;
 }
 
-
 /* Services */
 
 .services {
@@ -173,7 +171,6 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 }
-
 
 /* Team */
 
@@ -212,7 +209,7 @@ background-color: var(--secondary-bkgcolor);
 color: var(--hero-color);
 font-style: normal;
 font-weight: 400;
-line-height: 1, 71;
+line-height: 1.71;
 }
 
 .accent {
@@ -259,6 +256,10 @@ font-size: 16px;
 line-height: 1.88;
 color: var(--secondary-color);
 }
+
+/* .works link:hover {
+color: var(--link-active);
+} */
     
 
 
